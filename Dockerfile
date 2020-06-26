@@ -20,4 +20,6 @@ RUN chmod +x /usr/bin/yq
 ARG VERSION=none
 LABEL version=${VERSION}
 
+
+
 WORKDIR /workdir
